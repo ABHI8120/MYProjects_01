@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Jost', sans-serif;
+font-family: 'Poppins', sans-serif; */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Start Header */
+header {
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  justify-content: space-evenly;
+}
+
+.logo {
+  font-size: 3rem;
+  font-family: "Jost", sans-serif;
+}
+
+/* Start a navbar */
+/* nab li */
+nav {
+  gap: 2.4rem;
+}
+nav ul {
+  gap: 1.5rem;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration-line: none;
+  color: black;
+  font-size: 1.08rem;
+  text-underline-position: top1px;
+}
+/* hover efect */
+nav ul li a:hover {
+  text-decoration-line: underline;
+}
+
+/* Start a input search */
+.search {
+  background-color: #f5f5f5;
+  padding: 0.22rem 0.5rem;
+  border-radius: 5rem;
+}
+.search input {
+  border: transparent;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  width: 11rem;
+}
+.search button {
+  border: transparent;
+  background-color: transparent;
+  border-radius: 5rem;
+  padding: 0.3rem;
+}
+.search button:hover {
+  cursor: pointer;
+}
+
+/* add card heart and shop */
+nav .addcards {
+  gap: 1rem;
+  /* background-color: #F5F5F5; */
+  padding: 1rem 0.75rem;
+  border-radius: 5rem;
+  /* border: 2px solid #F5F5F5; */
+}
+nav .addcards:hover {
+  cursor: pointer;
+}
+/* hr line */
+.headerline {
+  margin: 0;
+  border-bottom: 0.5cap;
+  border-color: #0000006c;
+}
+/* End a header & nav */
+
+/* hero section */
+.hero {
+  gap: 2rem;
+  width: 100%;
+  margin: 2rem;
+  height: fit-content;
+}
+
+.blackline {
+  border: 0.01px solid #0000006c;
+  border-left: 0.5cap;
+  margin: -2rem 10px;
+}
+
+/* hero left */
+.hero .herolist {
+  max-width: 15%;
+  width: 100%;
+  flex-direction: column;
+}
+/* ul li a */
+.hero .herolist ul li {
+  margin: 10px 0;
+}
+
+/* hero right */
+.hero .heroimgs {
+  max-width: 75%;
+  width: 100%;
+}
+
+/* mian img iphone */
+.heroimgs img {
+  scale: 1.1;
+}
+
+/* ---------------------------------------------- */
+/* ----------------------------------------------- */
+
+/* second sections */
+.secondSection {
+  margin-top: 5rem;
+  padding: 0 6em;
+}
+
+/* first /todaybox today box logo */
+.blankbox1 {
+  width: 20px;
+  height: 40px;
+  background: #db4444;
+  border-radius: 5rem;
+  margin: 0 10px;
+}
+.todaybox {
+  font-weight: 600;
+  color: #db4444;
+}
+
+.timeBtnbox {
+  justify-content: space-between;
+  width: 70vw;
+}
+
+/* First/second sales day -timezome */
+
+/*  */
+.secondSection .flashSales {
+  font-size: 3vw;
+  font-weight: 500;
+  margin: 0 10px;
+}
+/* timezone */
+.timezone p {
+  margin: 0;
+}
+.timezone {
+  margin: 0 3rem;
+}
+
+.timezone div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.timetime {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.timedot {
+  color: #e07575;
+}
+.timeBtnbox button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: transparent;
+  background-color: #f5f5f5;
+  /* flex-direction: column; */
+  margin: 0 6px;
+}
+/* ---------------------------------- */
+
+
+/* items icons lestted */
+.itembox {
+  width: 270px;
+  /* height: 250px; */
+  /* background-color: #f5f5f5; */
+}
+.mainimg {
+  width: 270px;
+  height: 250px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+}
+
+/* list icons heart and eyes icons */
+.imgtopicon {
+  width: 0;
+  height: 0;
+  display: flex;
+  position: relative;
+  z-index: 10;
+  top: 15px;
+  left: 15px;
+}
+
+/* off price -40% */
+
+.off {
+  width: 55px;
+  height: 26px;
+  background-color: #db4444;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+.he {
+  left: 100px;
+}
+.he button {
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: transparent;
+  margin-top: 10px;
+  position: relative;
+  left: 155px;
+  top: -6px;
+}
+
+/* Detail in  */
+.itemDetail {
+  padding: 0 0 0 6px;
+}
+.itemName {
+  font-size: 16px;
+  font-weight: 500;
+}
+.price {
+  color: #db4444;
+  font-size: 20px;
+  font-weight: 500;
+}
+.cattext {
+  text-decoration: line-through;
+  color: #878787;
+  font-size: 15px;
+  font-weight: 400;
+}
+.retingp {
+  color: #878787;
+}
+/* stars */
+.reting {
+  font-size: 13px;
+}

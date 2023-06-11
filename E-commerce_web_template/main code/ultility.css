@@ -1,0 +1,34 @@
+.flex{
+    display: flex;
+}
+
+.flexaj{
+    display: flex;
+    justify-content: center;
+align-items: center;}
+
+.flexa{
+    display: flex;
+    /* justify-content: center; */
+align-items: center;}
+
+.flexj{
+    display: flex;
+    justify-content: center;}
+
+
+    /* text code just egnor it */
+.bd{
+border: 2px solid rgba(0, 4, 248, 0.333);
+}
+
+li{
+    list-style: none;
+}
+
+h4{
+    color: #fff;
+}
+p{
+    margin: 0;
+}
