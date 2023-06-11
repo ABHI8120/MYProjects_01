@@ -127,6 +127,7 @@ nav .addcards:hover {
 .secondSection {
   margin-top: 5rem;
   padding: 0 6em;
+  flex-direction: column;
 }
 
 /* first /todaybox today box logo */
@@ -150,7 +151,8 @@ nav .addcards:hover {
 /* First/second sales day -timezome */
 
 /*  */
-.secondSection .flashSales {
+
+.bigtext {
   font-size: 3vw;
   font-weight: 500;
   margin: 0 10px;
@@ -178,7 +180,10 @@ nav .addcards:hover {
 .timedot {
   color: #e07575;
 }
-.timeBtnbox button {
+.btns{
+  margin: 0 2vw 0 0;
+}
+.Btnbox button {
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -186,6 +191,7 @@ nav .addcards:hover {
   background-color: #f5f5f5;
   /* flex-direction: column; */
   margin: 0 6px;
+  
 }
 /* ---------------------------------- */
 
@@ -193,6 +199,7 @@ nav .addcards:hover {
 /* items icons lestted */
 .itembox {
   width: 270px;
+  margin: 30px 20px;
   /* height: 250px; */
   /* background-color: #f5f5f5; */
 }
@@ -264,4 +271,64 @@ nav .addcards:hover {
 /* stars */
 .reting {
   font-size: 13px;
+}
+
+
+/* --- button--- */
+.view1{
+  width: 234px;
+  height: 56px;
+  background: #db4444;
+  color: #fff;
+  border: 1px solid #db4444;
+  border-radius: 10px;
+  text-align: center;
+font-weight: 500;
+font-size: 18px;
+
+margin: 45px 0;
+}
+
+.blankline2{
+  width: 90vw;
+  border: 0.01px solid #0000006c;
+  border-bottom: 0.5cap;
+  margin: 10px 0 50px;
+
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+.categorie .first {
+  margin: 0 5vw;
+}
+.btns2{
+  margin: 0 2vw 0 0;
+}
+.csp{
+  justify-content: space-between;
+}
+
+
+/* cetegoriebox */
+.categoriebox.flexaj {
+  gap: 25px;
+}
+
+.cicon{
+  width: 170px;
+  height: 145px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  ;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.cicon img{
+  width: 56px;
+  height: 56px;
+}
+.cicon .text{
+font-size: 16px;
+margin-top: 7px;
+font-weight: 500;
 }
