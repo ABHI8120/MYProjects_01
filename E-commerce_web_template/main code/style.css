@@ -183,15 +183,14 @@ nav .addcards:hover {
 .btns{
   margin: 0 2vw 0 0;
 }
-.Btnbox button {
+.Btnbox button,
+.ourProdect .btns button{
   border-radius: 50%;
   width: 40px;
   height: 40px;
   border: transparent;
   background-color: #f5f5f5;
-  /* flex-direction: column; */
-  margin: 0 6px;
-  
+  margin: 0 6px; 
 }
 /* ---------------------------------- */
 
@@ -281,11 +280,11 @@ nav .addcards:hover {
   background: #db4444;
   color: #fff;
   border: 1px solid #db4444;
-  border-radius: 10px;
+  border-radius: 15px;
   text-align: center;
 font-weight: 500;
 font-size: 18px;
-
+font-family: "Poppins", sans-serif;
 margin: 45px 0;
 }
 
@@ -294,13 +293,21 @@ margin: 45px 0;
   border: 0.01px solid #0000006c;
   border-bottom: 0.5cap;
   margin: 10px 0 50px;
+  opacity: 0.3;
 
 }
 
 /* -------------------------------------------- */
 /* -------------------------------------------- */
-.categorie .first {
+.categorie{
+  flex-direction: column;
+}
+.categorie .first,
+ .monthsell,
+ .ourProdect,
+ .section6 .first{
   margin: 0 5vw;
+  width: 90vw;
 }
 .btns2{
   margin: 0 2vw 0 0;
@@ -313,13 +320,13 @@ margin: 45px 0;
 /* cetegoriebox */
 .categoriebox.flexaj {
   gap: 25px;
+  margin: 50px 0;
 }
 
 .cicon{
   width: 170px;
   height: 145px;
   border: 1px solid rgba(0, 0, 0, 0.3);
-  ;
   flex-direction: column;
   border-radius: 10px;
 }
@@ -331,4 +338,227 @@ margin: 45px 0;
 font-size: 16px;
 margin-top: 7px;
 font-weight: 500;
+}
+/* ------------------------------------------------------------- */
+/* ------------------------------------------------------------- */
+
+/* monthsell section */
+.monthBtn button{
+width: 159px;
+}
+
+.monthProdects .he button
+,.ourprodectListed .he button{
+left: 205px;
+}
+/* ----------------------- */
+/* ----------------------- */
+
+/* add1 img */
+.add1 img{
+  margin: 60px auto;
+  scale: 1.025;
+}
+/* ------------- */
+
+/* ourProdects */
+.ourprodectListed{
+  width: 80vw;
+  /* margin: 60px auto; */
+  flex-wrap: wrap;
+}
+.second1 {
+  flex-direction: column;
+}
+
+/* New section6 */
+
+.section6{
+  gap: 30px;
+  margin: 60px 0;
+}
+/* ps5 */
+.ps5{
+  width: 570px;
+  height: 600px;
+
+}
+.ps5 img{
+  padding: 89px 0 0 0;
+}
+.bgblack{
+background-color: #000;
+color: #fff;
+border-radius: 10px;
+
+}
+.z{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  height: 0;
+  bottom: -76%;
+  left: 20px;
+  
+}
+.z .name{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.z .text{
+  width: 242px;
+  font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #FAFAFA;
+margin-top: 10px;
+}
+.z button{
+  width: 90px;
+  height: 24px;
+  background: transparent;
+  border: transparent;
+    border-bottom-color: transparent;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+  color: #fff;
+  border-bottom: 1px solid;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+margin-top: 15px;  
+font-family: "Poppins", sans-serif;
+}
+/* women */
+.women{
+  width: 570px;
+  height: 284px;
+  /* margin: 10px; */
+}
+.women .z{
+  bottom: -50%;
+}
+.women .rightimg{
+  width: fit-content;
+padding-left: 21%;
+}
+/* boxs2 */
+.boxs2{
+  gap: 30px;
+margin-top: 30px;
+}
+.Speakers,
+.perfume{
+  width: 270px;
+  height: 284px;
+}
+.imgp2{
+  height: 100%;
+}
+.boxs2 .z{
+  bottom: -59%;
+}
+
+/* ------------------------------------ */
+/* ------------------------------------ */
+.section7{
+  gap: 8%;
+  margin: 110px 0;
+}
+.s7box1{
+  flex-direction: column;
+  
+}
+.bb1{
+  width: 80px;
+  height: 80px;
+  border-radius:50%;
+background-color: #2F2E30
+}
+.bb2{
+  width: 58px;
+  height: 58px;
+  border-radius:50%;
+  background-color: #000;
+
+}
+.s7box1 .text1{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 25px;
+}
+.s7box1 .text2{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+
+}
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+/* footer */
+footer{
+  background-color: #000;
+  color: #FAFAFA;
+  justify-content: space-evenly;
+  padding: 50px 0 0 0;
+}
+.content{
+  margin: 60px 0;
+}
+footer .textp1{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin: 24px 0;
+}
+footer .textp2{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 24px 0;
+}
+footer .textp3{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 16px;
+
+}
+
+/* footer email input and button */
+.FooterInput{
+  /* border: 1px solid #FAFAFA; */
+  width: 225px;
+height: 48px;
+border: 1.5px solid #FAFAFA;
+border-radius: 4px;
+
+}
+footer .l1{
+  flex-direction: column;
+}
+.FooterInput input{
+  font-size: 16px;
+  font-weight: 400;
+  /* opacity: 0.4; */
+  font-family: "Poppins", sans-serif;
+  border: transparent;
+  background-color: transparent;
+  color: #FAFAFA;
+padding: 5px 0 5px 10px;
+width: 170px;
+}
+.FooterInput button{
+  border: transparent;
+  background-color: transparent;
+  color: #FAFAFA;
+}
+.lastp{
+  color: #FAFAFA;
 }
